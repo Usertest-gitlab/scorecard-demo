@@ -1,1 +1,1 @@
-![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Usertest-gitlab/scorecard-demo/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Usertest-gitlab/scorecard-demo)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Usertest-gitlab/scorecard-demo/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Usertest-gitlab/scorecard-demo)
