@@ -3,10 +3,10 @@ name: OpenSSF Scorecard
 on:
   push:
     branches: [main]
+    tags:
+      - "v*"
   schedule:
     - cron: '0 6 * * 1' # Chaque lundi a 6h
-  tags:
-      - "v*"
 
 permissions: read-all
 
