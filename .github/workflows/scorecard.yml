@@ -21,13 +21,13 @@ jobs:
           submodules: false
 
       - name: Run Scorecard
-        uses: ossf/scorecard-action@v2.4.0
+        uses: ossf/scorecard-action@ff5dd8929f96a8a4dc67d13f32b8c75057829621
         with:
           results_file: results.sarif
           results_format: sarif
           publish_results: true
 
       - name: Upload results
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@c4a1a2f9d5b1b6d6a2e5c7b4f6e3a5c9d8b4a3f2
         with:
           sarif_file: results.sarif
