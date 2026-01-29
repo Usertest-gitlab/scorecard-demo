@@ -5,6 +5,8 @@ on:
     branches: [main]
   schedule:
     - cron: '0 6 * * 1' # Chaque lundi a 6h
+  tags:
+      - "v*"
 
 permissions: read-all
 
